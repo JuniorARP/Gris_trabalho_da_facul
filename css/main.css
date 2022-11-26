@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+
+}
+
+#nav_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    color: #ffffff;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.link_site {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+}
+
+.link_site:hover {
+    color: #aaa5a5;
+}
+
+.titulo_site {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px 50px 0px;
+}
+
+#foto_capa {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#foto_equipe {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.texto_site {
+    font-size: 20px;
+    padding: 0px 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 100px;
+    color: #ffffff;
+    height: 100px;
+}
+
+#video_jogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.redes_sociais {
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 5px;
+    color: #ffffff;
+    padding: 5px;
+    width: 18px;
+    height: auto;
+}
+
+.redes_sociais:hover {
+    background-color: #aaa5a5;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #797777;
+    font-size: 18px;
+    margin: 100px 0px 50px 0px;
+}
+
+.lojas {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.lojas img {
+    margin: 0px 20px;
+}
+.premio {
+    display: flex;
+    justify-content:center;
+    /* background-color: #f7d2f6; */
+    margin-top: 50px;
+    width: 100%;
+  
+}
+.img_premio {
+    width:50%;
+    height:auto;
+}
+
+a {
+    text-decoration: none;
+}
+#logo{
+    color: #fff;
+}
